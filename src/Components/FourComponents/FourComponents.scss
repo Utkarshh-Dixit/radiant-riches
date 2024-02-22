@@ -1,0 +1,29 @@
+.four-components {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #eee;
+    color: #333;
+
+    .component {
+        flex: 1;
+        text-align: center;
+
+        select {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 100%;
+            background-color: #fff;
+            color: #333;
+            cursor: pointer;
+            appearance: none; /* Remove default arrow icon */
+
+            &:hover,
+            &:focus {
+                border-color: #555;
+            }
+        }
+    }
+}
