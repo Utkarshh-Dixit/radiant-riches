@@ -7,6 +7,7 @@ import CustomComponent from "./Components/CustomComponent/CustomComponent";
 import TripleComponent from "./Components/TripleComponent/TripleComponent";
 import check from "./Components/check.png";
 import "./App.scss";
+import SignUp from "./Components/SignUp/SignUp";
 
 function App() {
   return (
@@ -47,6 +48,10 @@ function App() {
         buttonText="View Deal"
     />
 </div>
+<SignUp
+    paragraphText="Sign up and get exclusive special deals"
+    buttonText="Sign up"
+/>
 </div>
 
         </div>
