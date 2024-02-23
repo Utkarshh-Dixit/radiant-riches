@@ -8,6 +8,7 @@ import TripleComponent from "./Components/TripleComponent/TripleComponent";
 import check from "./Components/check.png";
 import "./App.scss";
 import SignUp from "./Components/SignUp/SignUp";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -53,6 +54,8 @@ function App() {
     buttonText="Sign up"
 />
 </div>
+
+<Footer />
 
         </div>
   );
