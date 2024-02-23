@@ -1,15 +1,16 @@
 .triple-component {
     border: 1px solid #ccc;
     margin-bottom: 20px;
-    max-width: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
     .top {
-        display: flex;
+        // display: flex;
         align-items: center;
         padding: 20px;
 
         img {
-            max-width: 100px;
-            height: auto;
             margin-right: 20px;
         }
 
@@ -63,5 +64,17 @@
             color: #fff;
             cursor: pointer;
         }
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .container > .triple-component {
+        width: calc(100% / 4);
+        margin-right: 20px;
     }
 }

@@ -4,14 +4,14 @@ import './TripleComponent.scss';
 const TripleComponent = ({ image, buttons, heading, paragraph, texts, buttonText }) => {
     return (
         <div className="triple-component">
-            {/* <div className="top"> */}
+            <div className="top">
                 <img src={image} alt="Component Image" />
                 <div className="buttons">
                     {buttons.map((button, index) => (
                         <button key={index}>{button}</button>
                     ))}
                 </div>
-            {/* </div> */}
+            </div>
             <div className="content">
                 <h2>{heading}</h2>
                 <p>{paragraph}</p>
